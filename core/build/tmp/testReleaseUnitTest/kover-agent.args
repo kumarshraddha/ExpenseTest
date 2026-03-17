@@ -1,0 +1,4 @@
+report.file=/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/core/build/kover/bin-reports/testReleaseUnitTest.ic
+exclude=android.*
+exclude=com.android.*
+exclude=jdk.internal.*
