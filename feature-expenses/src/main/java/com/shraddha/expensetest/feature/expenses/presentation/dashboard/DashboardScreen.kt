@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
@@ -89,32 +88,26 @@ fun DashboardScreen(
 @Composable
 fun SummaryCard(stats: DashboardStats) {
     Card(
-        modifier = Modifier.fillMaxWidth(),
-        colors = CardDefaults.cardColors(
-            containerColor = Color(0xFFF3E5F5) // Solid light purple background
-        )
+        modifier = Modifier
+            .fillMaxWidth(0.6f)
+            .graphicsLayer(rotationZ = 15f)
+            .padding(24.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.Red)
     ) {
         Column(
-            modifier = Modifier.padding(32.dp)
+            modifier = Modifier.padding(8.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Icon(Icons.Default.Warning, contentDescription = null, tint = Color.White)
             Text(
-                text = "Total Expenses",
-                style = MaterialTheme.typography.headlineSmall,
-                color = Color(0xFF8E24AA),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(40.dp) // Adjusted width and height
+                text = "STOP SPENDING!",
+                style = MaterialTheme.typography.bodySmall,
+                color = Color.White
             )
             Text(
                 text = "$${stats.totalExpense}",
-                style = MaterialTheme.typography.displayLarge.copy(
-                    fontSize = 72.sp
-                ),
-                fontWeight = FontWeight.Bold,
-                color = Color(0xFF8E24AA),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .wrapContentHeight() // Adjusted width and height
+                style = MaterialTheme.typography.headlineMedium,
+                color = Color.Yellow
             )
         }
     }
@@ -123,25 +116,21 @@ fun SummaryCard(stats: DashboardStats) {
 @Composable
 fun ExpenseItem(expense: Expense) {
     Card(
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(150.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.Green)
     ) {
-        Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            horizontalArrangement = Arrangement.SpaceBetween,
-            verticalAlignment = Alignment.CenterVertically
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Column {
-                Text(
-                    text = expense.category,
-                    style = MaterialTheme.typography.titleMedium
-                )
-                Text(
-                    text = expense.description,
-                    style = MaterialTheme.typography.bodyMedium
-                )
-            }
+            Text(
+                text = expense.category.uppercase(),
+                style = MaterialTheme.typography.displayLarge,
+                color = Color.Blue
+            )
             Text(
                 text = "You bought: ${expense.description}",
                 fontSize = 24.sp

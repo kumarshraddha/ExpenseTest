@@ -28,7 +28,7 @@ class TrendsViewModelTest {
         Dispatchers.setMain(testDispatcher)
         getTrendsUseCase = mockk()
         
-        val trends = listOf(TrendPoint("Jan 01", 100.0, mapOf("Food" to 100.0)))
+        val trends = listOf(TrendPoint("Jan 01", 100.0))
         every { getTrendsUseCase() } returns flowOf(trends)
         
         viewModel = TrendsViewModel(getTrendsUseCase)

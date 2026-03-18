@@ -1,9 +1,0 @@
-com.shraddha.expensetest.feature.expenses.feature-expenses-pngs-0 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/generated/res/pngs/debug
-com.shraddha.expensetest.feature.expenses.feature-expenses-updated_navigation_xml-1 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/generated/updated_navigation_xml/debug
-com.shraddha.expensetest.feature.expenses.feature-expenses-mergeDebugResources-2 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-com.shraddha.expensetest.feature.expenses.feature-expenses-mergeDebugResources-3 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-com.shraddha.expensetest.feature.expenses.feature-expenses-debug-4 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/merged_res/debug/mergeDebugResources
-com.shraddha.expensetest.feature.expenses.feature-expenses-debug-5 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/packaged_res/debug/packageDebugResources
-com.shraddha.expensetest.feature.expenses.feature-expenses-debug-6 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/src/debug/res
-com.shraddha.expensetest.feature.expenses.feature-expenses-main-7 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/src/main/res
-gradleHome-0 /Users/shraddhakumar/.gradle

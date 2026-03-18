@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite name="Preview Screenshot Test Engine" tests="1" skipped="0" failures="1" errors="0" time="1.612" hostname="shraddhakumar-mac.roam.internal" timestamp="2026-03-18T19:05:33">
+<testsuite name="Preview Screenshot Test Engine" tests="1" skipped="0" failures="1" errors="0" time="1.407" hostname="shraddhakumar-mac.roam.internal" timestamp="2026-03-17T10:56:08">
 <properties>
 <property name="deviceId" value="Preview"/>
 <property name="deviceDisplayName" value="Preview"/>
 </properties>
-<testcase name="ExpenseItemPreview" classname="com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest" time="0.017">
+<testcase name="ExpenseItemPreview" classname="com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest" time="0.016">
 <properties>
 <property name="PreviewScreenshot.previewName" value="ExpenseItemPreview"/>
 <property name="PreviewScreenshot.methodName" value="ExpenseItemPreview"/>
@@ -12,7 +12,7 @@
 <property name="PreviewScreenshot.newImagePath" value="/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png"/>
 </properties>
 
-<failure message="Size Mismatch. Reference image size: 1080x184. Rendered image size: 1080x190&#xa;Expected: /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png&#xa;Actual: /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png&#xa;" type="com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError"><![CDATA[com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError: Size Mismatch. Reference image size: 1080x184. Rendered image size: 1080x190
+<failure message="Size Mismatch. Reference image size: 1080x184. Rendered image size: 1080x394&#xa;Expected: /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png&#xa;Actual: /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png&#xa;" type="com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError"><![CDATA[com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError: Size Mismatch. Reference image size: 1080x184. Rendered image size: 1080x394
 Expected: /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png
 Actual: /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png
 

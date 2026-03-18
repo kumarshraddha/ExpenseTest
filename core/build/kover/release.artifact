@@ -1,0 +1,13 @@
+:core
+core/src/release/kotlin
+core/src/release/java
+core/build/generated/ksp/release/kotlin
+core/build/generated/ksp/release/java
+core/src/main/kotlin
+core/src/main/java
+
+core/build/tmp/kotlin-classes/release
+core/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes
+core/build/generated/ksp/release/classes
+
+core/build/kover/bin-reports/testReleaseUnitTest.ic
