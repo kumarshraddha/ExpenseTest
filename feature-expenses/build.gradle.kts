@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
+    id("org.jetbrains.kotlinx.kover")
     alias(libs.plugins.screenshot)
 }
 
@@ -70,4 +71,10 @@ dependencies {
     screenshotTestImplementation(libs.screenshot.validation.api)
     screenshotTestImplementation(libs.androidx.compose.ui.tooling)
     screenshotTestImplementation(kotlin("stdlib"))
+}
+
+kover {
+    reports {
+        variant("debug") { }
+    }
 }
