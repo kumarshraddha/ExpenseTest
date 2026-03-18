@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shraddha.expensetest.core.data.local.dao.ExpenseDaoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-17T05:12:42.149Z" hostname="shraddhakumar-mac.roam.internal" time="1.783">
-  <properties/>
-  <testcase name="getExpensesBetweenDates" classname="com.shraddha.expensetest.core.data.local.dao.ExpenseDaoTest" time="1.766"/>
-  <testcase name="writeExpenseAndReadInList" classname="com.shraddha.expensetest.core.data.local.dao.ExpenseDaoTest" time="0.016"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
