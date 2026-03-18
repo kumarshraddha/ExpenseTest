@@ -4,10 +4,10 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="24" />
+        android:targetSdkVersion="34" />
 
     <instrumentation
-        android:name="android.test.InstrumentationTestRunner"
+        android:name="androidx.test.runner.AndroidJUnitRunner"
         android:label="Tests for com.shraddha.expensetest.feature.expenses.test"
         android:targetPackage="com.shraddha.expensetest.feature.expenses.test" />
 
@@ -20,8 +20,6 @@
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true" >
-        <uses-library android:name="android.test.runner" />
-
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
