@@ -9,19 +9,24 @@ import java.util.Locale
 
 data class TrendPoint(
     val label: String,
-    val amount: Double
+    val totalAmount: Double,
+    val categoryAmounts: Map<String, Double>
 )
 
 class GetTrendsUseCase(
     private val repository: ExpenseRepository
 ) {
     operator fun invoke(): Flow<List<TrendPoint>> {
-        val dateFormat = SimpleDateFormat("MMM dd", Locale.getDefault())
+        val dateFormat = SimpleDateFormat("dd MMM", Locale.getDefault())
         return repository.getAllExpenses().map { expenses ->
             expenses.groupBy { 
                 dateFormat.format(Date(it.date))
             }.map { (label, items) ->
-                TrendPoint(label, items.sumOf { it.amount })
+                val total = items.sumOf { it.amount }
+                val categoryMap = items.groupBy { it.category }
+                    .mapValues { (_, categoryItems) -> categoryItems.sumOf { it.amount } }
+                
+                TrendPoint(label, total, categoryMap)
             }.reversed() // Sort by date ascending (assuming getAllExpenses is DESC)
         }
     }
