@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
     alias(libs.plugins.compose.compiler)
-    id("org.jetbrains.kotlinx.kover")
 }
 
 android {
@@ -83,10 +82,4 @@ dependencies {
     // Force newer ASM for Robolectric on newer JDKs
     testImplementation("org.ow2.asm:asm:9.9.1")
     testImplementation("org.ow2.asm:asm-commons:9.9.1")
-}
-
-kover {
-    reports {
-        variant("debug") { }
-    }
 }
