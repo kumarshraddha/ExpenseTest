@@ -1,9 +1,0 @@
-com.shraddha.expensetest.core-pngs-0 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/generated/res/pngs/release
-com.shraddha.expensetest.core-updated_navigation_xml-1 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/generated/updated_navigation_xml/release
-com.shraddha.expensetest.core-mergeReleaseResources-2 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.shraddha.expensetest.core-mergeReleaseResources-3 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.shraddha.expensetest.core-release-4 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/intermediates/merged_res/release/mergeReleaseResources
-com.shraddha.expensetest.core-release-5 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/intermediates/packaged_res/release/packageReleaseResources
-com.shraddha.expensetest.core-main-6 /Users/shraddhakumar/Downloads/ExpenseTest/core/src/main/res
-com.shraddha.expensetest.core-release-7 /Users/shraddhakumar/Downloads/ExpenseTest/core/src/release/res
-gradleHome-0 /Users/shraddhakumar/.gradle

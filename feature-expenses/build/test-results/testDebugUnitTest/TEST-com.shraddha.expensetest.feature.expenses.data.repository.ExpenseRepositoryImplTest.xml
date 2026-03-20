@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shraddha.expensetest.feature.expenses.data.repository.ExpenseRepositoryImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-03-20T04:46:37.960Z" hostname="shraddhakumar-mac.roam.internal" time="0.063">
-  <properties/>
-  <testcase name="getAllExpenses returns mapped domain model" classname="com.shraddha.expensetest.feature.expenses.data.repository.ExpenseRepositoryImplTest" time="0.052"/>
-  <testcase name="insertExpense calls dao correctly" classname="com.shraddha.expensetest.feature.expenses.data.repository.ExpenseRepositoryImplTest" time="0.007"/>
-  <testcase name="deleteExpense calls dao correctly" classname="com.shraddha.expensetest.feature.expenses.data.repository.ExpenseRepositoryImplTest" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
