@@ -49,15 +49,4 @@ class AddExpenseUseCaseTest {
             kotlinx.coroutines.runBlocking { useCase(expense) }
         }
     }
-
-    @Test
-    fun `INTENTIONAL FAILURE - negative amount should not throw exception`() = runTest {
-        val expense = Expense(id = 1L, amount = -50.0, category = "Failure", description = "Should fail", date = 123L)
-        coEvery { repository.insertExpense(expense) } returns Unit
-
-        // This should throw IllegalArgumentException but we assert no exception is thrown
-        useCase(expense) 
-        
-        coVerify { repository.insertExpense(expense) }
-    }
 }
