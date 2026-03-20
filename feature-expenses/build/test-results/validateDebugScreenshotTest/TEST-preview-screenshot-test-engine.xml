@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite name="Preview Screenshot Test Engine" tests="1" skipped="0" failures="1" errors="0" time="1.315" hostname="shraddhakumar-mac.roam.internal" timestamp="2026-03-20T09:43:13">
+<testsuite name="Preview Screenshot Test Engine" tests="1" skipped="0" failures="1" errors="0" time="1.857" hostname="shraddhakumar-mac.roam.internal" timestamp="2026-03-20T10:35:07">
 <properties>
 <property name="deviceId" value="Preview"/>
 <property name="deviceDisplayName" value="Preview"/>
 </properties>
-<testcase name="SummaryCardPreview" classname="com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest" time="0.019">
+<testcase name="ExpenseItemPreview" classname="com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest" time="0.017">
 <properties>
-<property name="PreviewScreenshot.previewName" value="SummaryCardPreview"/>
-<property name="PreviewScreenshot.methodName" value="SummaryCardPreview"/>
-<property name="PreviewScreenshot.refImagePath" value="/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/SummaryCardPreview_748aa731_0.png"/>
-<property name="PreviewScreenshot.newImagePath" value="/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/SummaryCardPreview_748aa731_0.png"/>
+<property name="PreviewScreenshot.previewName" value="ExpenseItemPreview"/>
+<property name="PreviewScreenshot.methodName" value="ExpenseItemPreview"/>
+<property name="PreviewScreenshot.refImagePath" value="/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png"/>
+<property name="PreviewScreenshot.newImagePath" value="/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png"/>
 </properties>
 
-<failure message="Size Mismatch. Reference image size: 1080x259. Rendered image size: 1080x525&#xa;Expected: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/SummaryCardPreview_748aa731_0.png&#xa;Actual: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/SummaryCardPreview_748aa731_0.png&#xa;" type="com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError"><![CDATA[com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError: Size Mismatch. Reference image size: 1080x259. Rendered image size: 1080x525
-Expected: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/SummaryCardPreview_748aa731_0.png
-Actual: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/SummaryCardPreview_748aa731_0.png
+<failure message="Size Mismatch. Reference image size: 1080x184. Rendered image size: 1080x190&#xa;Expected: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png&#xa;Actual: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png&#xa;" type="com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError"><![CDATA[com.android.tools.screenshot.differ.ImageVerifier$ImageComparisonAssertionError: Size Mismatch. Reference image size: 1080x184. Rendered image size: 1080x190
+Expected: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/screenshotTestDebug/reference/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png
+Actual: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/outputs/screenshotTest-results/preview/debug/rendered/com/shraddha/expensetest/feature/expenses/presentation/dashboard/DashboardScreenshotTest/ExpenseItemPreview_748aa731_0.png
 
 	at com.android.tools.screenshot.differ.ImageVerifier.verify(ImageVerifier.kt:51)
 	at com.android.tools.screenshot.descriptor.PreviewScreenshotDescriptor.execute(PreviewScreenshotDescriptor.kt:79)
@@ -29,8 +29,8 @@ Actual: /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/output
 	at com.android.tools.screenshot.descriptor.PreviewScreenshotTestEngineDescriptor.around(PreviewScreenshotTestEngineDescriptor.kt:26)
 ]]></failure>
 <system-out><![CDATA[
-unique-id: [engine:preview-screenshot-test-engine]/[class:com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest]/[method:SummaryCardPreview]/[previewAnnotation:com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest.SummaryCardPreview_748aa731]/[previewId:com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest.SummaryCardPreview_748aa731_0]
-display-name: SummaryCardPreview
+unique-id: [engine:preview-screenshot-test-engine]/[class:com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest]/[method:ExpenseItemPreview]/[previewAnnotation:com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest.ExpenseItemPreview_748aa731]/[previewId:com.shraddha.expensetest.feature.expenses.presentation.dashboard.DashboardScreenshotTest.ExpenseItemPreview_748aa731_0]
+display-name: ExpenseItemPreview
 ]]></system-out>
 </testcase>
 <system-out><![CDATA[
