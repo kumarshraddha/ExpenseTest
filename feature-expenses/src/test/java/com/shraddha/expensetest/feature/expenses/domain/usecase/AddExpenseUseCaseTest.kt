@@ -5,33 +5,59 @@ import com.shraddha.expensetest.feature.expenses.domain.repository.ExpenseReposi
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk
-import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertThrows
 import org.junit.Before
 import org.junit.Test
 
 class AddExpenseUseCaseTest {
-    private lateinit var addExpenseUseCase: AddExpenseUseCase
+    private lateinit var useCase: AddExpenseUseCase
     private lateinit var repository: ExpenseRepository
 
     @Before
     fun setUp() {
         repository = mockk()
-        addExpenseUseCase = AddExpenseUseCase(repository)
+        useCase = AddExpenseUseCase(repository)
     }
 
     @Test
-    fun `invoke with valid expense calls repository`() = runBlocking {
-        val expense = Expense(amount = 10.0, category = "Food", description = "Lunch", date = 123L)
-        coEvery { repository.insertExpense(any()) } returns Unit
+    fun `when amount is positive, expense is inserted`() = runTest {
+        val expense = Expense(id = 1L, amount = 10.0, category = "Food", description = "Lunch", date = 123L)
+        coEvery { repository.insertExpense(expense) } returns Unit
 
-        addExpenseUseCase(expense)
+        useCase(expense)
 
         coVerify { repository.insertExpense(expense) }
     }
 
-    @Test(expected = IllegalArgumentException::class)
-    fun `invoke with zero amount throws exception`() = runBlocking {
-        val expense = Expense(amount = 0.0, category = "Food", description = "Lunch", date = 123L)
-        addExpenseUseCase(expense)
+    @Test
+    fun `when amount is zero, throws exception`() = runTest {
+        val expense = Expense(id = 1L, amount = 0.0, category = "Food", description = "Lunch", date = 123L)
+        
+        assertThrows(IllegalArgumentException::class.java) {
+            // Remove nested runTest
+            kotlinx.coroutines.runBlocking { useCase(expense) }
+        }
+    }
+
+    @Test
+    fun `when amount is negative, throws exception`() = runTest {
+        val expense = Expense(id = 1L, amount = -10.0, category = "Food", description = "Lunch", date = 123L)
+        
+        assertThrows(IllegalArgumentException::class.java) {
+            // Remove nested runTest
+            kotlinx.coroutines.runBlocking { useCase(expense) }
+        }
+    }
+
+    @Test
+    fun `INTENTIONAL FAILURE - negative amount should not throw exception`() = runTest {
+        val expense = Expense(id = 1L, amount = -50.0, category = "Failure", description = "Should fail", date = 123L)
+        coEvery { repository.insertExpense(expense) } returns Unit
+
+        // This should throw IllegalArgumentException but we assert no exception is thrown
+        useCase(expense) 
+        
+        coVerify { repository.insertExpense(expense) }
     }
 }

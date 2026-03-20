@@ -16,7 +16,7 @@ class DashboardScreenshotTest {
             SummaryCard(
                 stats = DashboardStats(
                     totalExpense = 1250.50,
-                    categoryBreakdown = mapOf("Food" to 500.0, "Transport" to 200.0)
+                    categoryBreakdown = mapOf("Food" to 500.0, "Transport" to 200.0),
                 )
             )
         }
@@ -29,11 +29,11 @@ class DashboardScreenshotTest {
         ExpenseTestTheme {
             ExpenseItem(
                 expense = Expense(
-                    id = 1,
+                    id = 1L,
                     amount = 15.5,
                     category = "Food",
                     description = "Lunch",
-                    date = 1672531200000L
+                    date = 1672531200000L,
                 )
             )
         }

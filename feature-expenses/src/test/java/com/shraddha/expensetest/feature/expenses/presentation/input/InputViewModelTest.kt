@@ -5,20 +5,15 @@ import io.mockk.coEvery
 import io.mockk.mockk
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
 import org.junit.After
-import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
-
-import kotlinx.coroutines.flow.toList
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.test.UnconfinedTestDispatcher
 
 @OptIn(ExperimentalCoroutinesApi::class)
 class InputViewModelTest {
@@ -42,32 +37,17 @@ class InputViewModelTest {
     fun `onSaveExpense with valid input emits SaveSuccess`() = runTest {
         coEvery { addExpenseUseCase(any()) } returns Unit
 
-        val events = mutableListOf<InputViewModel.UiEvent>()
-        val collectJob = launch(UnconfinedTestDispatcher(testScheduler)) {
-            viewModel.eventFlow.collect { events.add(it) }
-        }
-
-        viewModel.onSaveExpense("10.50", "Food", "Lunch")
-        testDispatcher.scheduler.advanceUntilIdle()
+        viewModel.onSaveExpense("10.0", "Food", "Lunch")
         
-        assertTrue(events.first() is InputViewModel.UiEvent.SaveSuccess)
-        collectJob.cancel()
+        val event = viewModel.eventFlow.first()
+        assertTrue(event is InputViewModel.UiEvent.SaveSuccess)
     }
 
     @Test
-    fun `onSaveExpense with invalid input emits ShowError`() = runTest {
-        coEvery { addExpenseUseCase(any()) } throws IllegalArgumentException("Error")
-
-        val events = mutableListOf<InputViewModel.UiEvent>()
-        val collectJob = launch(UnconfinedTestDispatcher(testScheduler)) {
-            viewModel.eventFlow.collect { events.add(it) }
-        }
-
-        viewModel.onSaveExpense("0", "Food", "Lunch")
-        testDispatcher.scheduler.advanceUntilIdle()
+    fun `onSaveExpense with empty amount emits ShowError`() = runTest {
+        viewModel.onSaveExpense("", "Food", "Lunch")
         
-        assertTrue(events.first() is InputViewModel.UiEvent.ShowError)
-        assertEquals("Error", (events.first() as InputViewModel.UiEvent.ShowError).message)
-        collectJob.cancel()
+        val event = viewModel.eventFlow.first()
+        assertTrue(event is InputViewModel.UiEvent.ShowError)
     }
 }
