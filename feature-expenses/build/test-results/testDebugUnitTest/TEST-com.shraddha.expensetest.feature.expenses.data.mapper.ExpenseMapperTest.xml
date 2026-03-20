@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shraddha.expensetest.feature.expenses.data.mapper.ExpenseMapperTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-20T04:46:37.958Z" hostname="shraddhakumar-mac.roam.internal" time="0.001">
-  <properties/>
-  <testcase name="toDomain maps correctly" classname="com.shraddha.expensetest.feature.expenses.data.mapper.ExpenseMapperTest" time="0.001"/>
-  <testcase name="toEntity maps correctly" classname="com.shraddha.expensetest.feature.expenses.data.mapper.ExpenseMapperTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

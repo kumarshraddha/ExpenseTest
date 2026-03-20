@@ -1,9 +1,0 @@
-com.shraddha.expensetest.feature.expenses.feature-expenses-pngs-0 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/generated/res/pngs/release
-com.shraddha.expensetest.feature.expenses.feature-expenses-updated_navigation_xml-1 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/generated/updated_navigation_xml/release
-com.shraddha.expensetest.feature.expenses.feature-expenses-mergeReleaseResources-2 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
-com.shraddha.expensetest.feature.expenses.feature-expenses-mergeReleaseResources-3 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
-com.shraddha.expensetest.feature.expenses.feature-expenses-release-4 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/merged_res/release/mergeReleaseResources
-com.shraddha.expensetest.feature.expenses.feature-expenses-release-5 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/packaged_res/release/packageReleaseResources
-com.shraddha.expensetest.feature.expenses.feature-expenses-main-6 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/main/res
-com.shraddha.expensetest.feature.expenses.feature-expenses-release-7 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/src/release/res
-gradleHome-0 /Users/shraddhakumar/.gradle

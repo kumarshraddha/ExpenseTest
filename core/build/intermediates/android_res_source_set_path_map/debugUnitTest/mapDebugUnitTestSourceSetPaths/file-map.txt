@@ -1,4 +1,0 @@
-com.shraddha.expensetest.core.test.core-mergeDebugUnitTestResources-0 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/intermediates/incremental/debugUnitTest/mergeDebugUnitTestResources/merged.dir
-com.shraddha.expensetest.core.test.core-mergeDebugUnitTestResources-1 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/intermediates/incremental/debugUnitTest/mergeDebugUnitTestResources/stripped.dir
-com.shraddha.expensetest.core.test.core-debugUnitTest-2 /Users/shraddhakumar/Downloads/ExpenseTest/core/build/intermediates/merged_res/debugUnitTest/mergeDebugUnitTestResources
-gradleHome-0 /Users/shraddhakumar/.gradle

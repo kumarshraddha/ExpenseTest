@@ -1,4 +1,0 @@
-com.shraddha.expensetest.feature.expenses.test.feature-expenses-mergeReleaseScreenshotTestResources-0 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/incremental/releaseScreenshotTest/mergeReleaseScreenshotTestResources/merged.dir
-com.shraddha.expensetest.feature.expenses.test.feature-expenses-mergeReleaseScreenshotTestResources-1 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/incremental/releaseScreenshotTest/mergeReleaseScreenshotTestResources/stripped.dir
-com.shraddha.expensetest.feature.expenses.test.feature-expenses-releaseScreenshotTest-2 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/merged_res/releaseScreenshotTest/mergeReleaseScreenshotTestResources
-gradleHome-0 /Users/shraddhakumar/.gradle
