@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.android.library) apply false
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.ksp) apply false
-    alias(libs.plugins.screenshot) apply false
+    alias(libs.plugins.screenshot) apply true
     alias(libs.plugins.compose.compiler) apply false
 }
 
