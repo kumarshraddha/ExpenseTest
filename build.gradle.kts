@@ -7,3 +7,4 @@ plugins {
     alias(libs.plugins.screenshot) apply false
     alias(libs.plugins.compose.compiler) apply false
 }
+

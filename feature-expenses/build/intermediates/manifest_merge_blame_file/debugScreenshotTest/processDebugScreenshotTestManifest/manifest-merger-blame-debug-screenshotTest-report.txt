@@ -3,20 +3,20 @@
 3    package="com.shraddha.expensetest.feature.expenses.test" >
 4
 5    <uses-sdk
-5-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:5:5-74
+5-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:5:15-41
+6-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:5:42-71
+7-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:9:5-11:96
+9-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:9:5-11:96
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:9:22-76
+10-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:9:22-76
 11        android:label="Tests for com.shraddha.expensetest.feature.expenses.test"
-11-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:11:22-94
+11-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:11:22-94
 12        android:targetPackage="com.shraddha.expensetest.feature.expenses.test" />
-12-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:10:22-92
+12-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:10:22-92
 13
 14    <permission
 14-->[androidx.core:core:1.12.0] /Users/shraddhakumar/.gradle/caches/9.5.0-milestone-5/transforms/9341879e165d1916305fb132598c3a58/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
@@ -30,11 +30,11 @@
 18-->[androidx.core:core:1.12.0] /Users/shraddhakumar/.gradle/caches/9.5.0-milestone-5/transforms/9341879e165d1916305fb132598c3a58/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:7:5-46
+20-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:7:5-46
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.12.0] /Users/shraddhakumar/.gradle/caches/9.5.0-milestone-5/transforms/9341879e165d1916305fb132598c3a58/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 22        android:debuggable="true" >
-22-->/Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest10067953318163392614.xml:7:18-43
+22-->/Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/tmp/manifest/screenshotTest/debug/tempFile1ProcessTestManifest11710890752635780240.xml:7:18-43
 23        <activity
 23-->[androidx.compose.ui:ui-tooling-android:1.5.4] /Users/shraddhakumar/.gradle/caches/9.5.0-milestone-5/transforms/4021e45c329d5c88db2d38ba3be0cb25/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 24            android:name="androidx.compose.ui.tooling.PreviewActivity"

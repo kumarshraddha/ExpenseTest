@@ -1,4 +1,4 @@
-com.shraddha.expensetest.feature.expenses.test.feature-expenses-mergeDebugScreenshotTestResources-0 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/incremental/debugScreenshotTest/mergeDebugScreenshotTestResources/merged.dir
-com.shraddha.expensetest.feature.expenses.test.feature-expenses-mergeDebugScreenshotTestResources-1 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/incremental/debugScreenshotTest/mergeDebugScreenshotTestResources/stripped.dir
-com.shraddha.expensetest.feature.expenses.test.feature-expenses-debugScreenshotTest-2 /Users/shraddhakumar/AndroidStudioProjects/ExpenseTest/feature-expenses/build/intermediates/merged_res/debugScreenshotTest/mergeDebugScreenshotTestResources
+com.shraddha.expensetest.feature.expenses.test.feature-expenses-mergeDebugScreenshotTestResources-0 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/incremental/debugScreenshotTest/mergeDebugScreenshotTestResources/merged.dir
+com.shraddha.expensetest.feature.expenses.test.feature-expenses-mergeDebugScreenshotTestResources-1 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/incremental/debugScreenshotTest/mergeDebugScreenshotTestResources/stripped.dir
+com.shraddha.expensetest.feature.expenses.test.feature-expenses-debugScreenshotTest-2 /Users/shraddhakumar/Downloads/ExpenseTest/feature-expenses/build/intermediates/merged_res/debugScreenshotTest/mergeDebugScreenshotTestResources
 gradleHome-0 /Users/shraddhakumar/.gradle

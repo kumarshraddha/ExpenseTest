@@ -67,7 +67,10 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     
     // Screenshot Testing
+    screenshotTestImplementation(project(":core"))
     screenshotTestImplementation(libs.screenshot.validation.api)
+    screenshotTestImplementation(libs.androidx.compose.ui)
+    screenshotTestImplementation(libs.androidx.compose.material3)
     screenshotTestImplementation(libs.androidx.compose.ui.tooling)
     screenshotTestImplementation(kotlin("stdlib"))
 }
