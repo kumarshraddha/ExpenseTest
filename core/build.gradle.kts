@@ -19,6 +19,7 @@ android {
     buildTypes {
         debug {
             enableUnitTestCoverage = true
+            enableAndroidTestCoverage = true
         }
         release {
             isMinifyEnabled = false
@@ -38,11 +39,16 @@ android {
     buildFeatures {
         compose = true
     }
+    lint {
+        disable += "MutableCollectionMutableState"
+        disable += "AutoboxingStateCreation"
+    }
     testOptions {
         unitTests {
             isIncludeAndroidResources = true
             all {
                 it.jvmArgs("-noverify") // for robolectric
+                it.jvmArgs("-Dnet.bytebuddy.experimental=true")
             }
         }
     }

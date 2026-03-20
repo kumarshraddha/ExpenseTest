@@ -16,6 +16,13 @@ allprojects {
     configure<JacocoPluginExtension> {
         toolVersion = jacocoVersion
     }
+
+    tasks.withType<Test>().configureEach {
+        configure<JacocoTaskExtension> {
+            isIncludeNoLocationClasses = false
+            excludes = listOf("jdk.internal.*", "java.*", "sun.*", "com.sun.*", "jdk.proxy.*")
+        }
+    }
 }
 
 val subProjects = listOf("app", "core", "feature-expenses")

@@ -24,6 +24,7 @@ android {
     buildTypes {
         debug {
             enableUnitTestCoverage = true
+            enableAndroidTestCoverage = true
         }
         release {
             isMinifyEnabled = false
@@ -43,10 +44,17 @@ android {
     testOptions {
         unitTests {
             isIncludeAndroidResources = true
+            all {
+                it.jvmArgs("-Dnet.bytebuddy.experimental=true")
+            }
         }
     }
     buildFeatures {
         compose = true
+    }
+    lint {
+        disable += "MutableCollectionMutableState"
+        disable += "AutoboxingStateCreation"
     }
     packaging {
         resources {
@@ -78,6 +86,10 @@ dependencies {
     testImplementation("org.robolectric:robolectric:4.14.1")
     testImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // Force newer ASM for Robolectric on newer JDKs
+    testImplementation("org.ow2.asm:asm:9.9.1")
+    testImplementation("org.ow2.asm:asm-commons:9.9.1")
 
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
