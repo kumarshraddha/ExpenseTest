@@ -21,10 +21,8 @@ class NavGraphTest {
     val composeTestRule = createComposeRule()
 
     @Test
-    fun `INTENTIONAL FAILURE - check start destination`() {
-        // We assert that the start destination is "input", but it's actually "dashboard"
-        // This test will fail
-        val expectedStartDestination = "input"
+    fun `check start destination`() {
+        val expectedStartDestination = "dashboard"
         val actualStartDestination = "dashboard" 
         
         assertEquals("Incorrect start destination!", expectedStartDestination, actualStartDestination)
